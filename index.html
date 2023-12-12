@@ -18,8 +18,10 @@
     <main>
       <div class="main-container">
         <section class="header">
-          <p>Notification <span id="notif-amount">3</span></p>
-          <p>Mark all as read</p>
+          <p>
+            Notification <span id="notif-amount" class="notif-amount">3</span>
+          </p>
+          <p class="mark-as-read">Mark all as read</p>
         </section>
         <section class="notif-list">
           <div class="unread">
@@ -29,7 +31,8 @@
                 <p class="notif-text">
                   <a href="" class="account-name">Mark Webber</a> reacted to
                   your recent post
-                  <a href="" class="reaction">My first tournament today!</a>
+                  <a href="" class="reaction">My first tournament today! </a
+                  ><span class="unread-badge"></span>
                 </p>
                 <p class="time">1m ago</p>
               </div>
@@ -41,7 +44,8 @@
               <img src="./assets/images/avatar-angela-gray.webp" alt="" />
               <div class="notif-message">
                 <p class="notif-text">
-                  <a href="" class="account-name">Angela Gray</a> followed you
+                  <a href="" class="account-name">Angela Gray</a> followed
+                  you<span class="unread-badge"></span>
                 </p>
                 <p class="time">5m ago</p>
               </div>
@@ -54,7 +58,8 @@
               <div class="notif-message">
                 <p class="notif-text">
                   <a href="" class="account-name">Jacob Thompson</a> has joined
-                  your group <a href="" class="reaction">Chess Club</a>
+                  your group <a href="" class="reaction">Chess Club</a
+                  ><span class="unread-badge"></span>
                 </p>
                 <p class="time">1 day ago</p>
               </div>
@@ -80,7 +85,7 @@
           </div>
 
           <div class="readed">
-            <div class="notif">
+            <div class="notif pic-comment">
               <img src="./assets/images/avatar-kimberly-smith.webp" alt="" />
               <div class="notif-message">
                 <p class="notif-text">
@@ -124,6 +129,7 @@
         </section>
       </div>
     </main>
+    <script src="index.js"></script>
     <!--
     <div class="attribution">
       Challenge by
